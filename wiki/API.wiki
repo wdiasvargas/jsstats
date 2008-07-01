@@ -5,7 +5,7 @@ The js.stats library is meant to be extraordinarily simple. Using the function `
 
 For example:
 {{{
-<script type="text/javascript" src="http://jsstats.googlecode.com/files/js.stats.pack-v0.5.js"></script>
+<script type="text/javascript" src="http://jsstats.googlecode.com/files/js.stats.pack-recent.js"></script>
 <script type="text/javascript">
 var data_array = new Array(1, 2, 3, 4, 5);
 
@@ -19,14 +19,15 @@ The alert box will display the median, in this case 3.
 
 = Available Functions =
 Currently, you can request the following descriptive statistics:
- * *Count*: `stats("count", data_array)`
- * *Mean*: `stats("mean", data_array)`
- * *Median*: `stats("mean", data_array)`
- * *Minimum*: `stats("min", data_array)`
- * *Maximum*: `stats("max", data_array)`
- * *Standard Deviation*: `stats("st_dev", data_array)`
- * *Sum*: `stats("sum", data_array)`
- * *Variance*: `stats("variance", data_array)`
+|| *Request*          || *Function*                      ||
+|| Count              || `stats("count", data_array)`    ||
+|| Mean               || `stats("mean", data_array)`     ||
+|| Median             || `stats("mean", data_array)`     ||
+|| Minimum            || `stats("min", data_array)`      ||
+|| Maximum            || `stats("max", data_array)`      ||
+|| Standard Deviation || `stats("st_dev", data_array)`   ||
+|| Sum                || `stats("sum", data_array)`      ||
+|| Variance           || `stats("variance", data_array)` ||
 
 = Decimal Places =
 A third, optional parameter allows you to set the number of decimal places. The default value is zero (0). The code for this is:
@@ -41,4 +42,4 @@ alert(answer);
 
 The alert box will display a mean of 3.44.
 
-_Note: this feature is not available (and not necessary) for maximum, minimum, and median_
+_Note: this feature is not available (and not necessary) for count, maximum, minimum, and sum_.
