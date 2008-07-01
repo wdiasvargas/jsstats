@@ -1,4 +1,4 @@
-#summary List of changes to *js.stats*.
+#summary List of changes to js.stats
 
 = Changelog =
 
