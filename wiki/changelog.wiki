@@ -1,0 +1,6 @@
+#summary List of changes to JSstats
+
+= Changelog =
+
+ * 0.5 - Initial stable version.
+  ** 0.51 - Added the _setDecimalType()_ function
