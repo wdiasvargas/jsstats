@@ -1,0 +1,30 @@
+#summary A brief overview of the js.stats API
+
+= Introduction =
+
+The js.stats library is meant to be extraordinarily simple. Using the function `stats()`, you specify the request followed by an array of numbers. The function will return the answer.
+
+For example:
+{{{
+<script type="text/javascript" src="http://jsstats.googlecode.com/files/js.stats.pack-v0.5.js"></script>
+<script type="text/javascript">
+var data_array = new Array(1,2,3,4,5);
+
+var answer = stats("median", data_array);
+
+alert(answer);
+</script>
+}}}
+
+The alert box will display the median, in this case 3.
+
+= Details =
+Currently, you can request the following descriptive statistics:
+ * *Count*: `stats("count", data_array)`
+ * *Mean*: `stats("mean", data_array)`
+ * *Median*: `stats("mean", data_array)`
+ * *Minimum*: `stats("min", data_array)`
+ * *Maximum*: `stats("max", data_array)`
+ * *Standard Deviation*: `stats("st_dev", data_array)`
+ * *Sum*: `stats("sum", data_array)`
+ * *Variance*: `stats("variance", data_array)`
