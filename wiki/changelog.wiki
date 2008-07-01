@@ -1,6 +1,6 @@
-#summary List of changes to JSstats
+#summary List of changes to *js.stats*.
 
 = Changelog =
 
  * 0.5 - Initial stable version.
-  ** 0.51 - Added the _setDecimalType()_ function
+  ** 0.51 - Added the _setDecimalType()_ function.
