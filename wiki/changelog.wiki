@@ -4,3 +4,4 @@
 
  * 0.5 - Initial stable version.
   ** 0.51 - Added the _setDecimalType()_ function.
+  ** 0.52 - Added the _skewness()_ and _kurtosis()_ functions.
