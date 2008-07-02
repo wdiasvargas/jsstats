@@ -1,45 +1,15 @@
-#summary A brief overview of the js.stats API
+#summary A detailed overview of the js.stats API
 
 = Introduction =
-The js.stats library is meant to be extraordinarily simple. Using the function `stats()`, you specify the request followed by an array of numbers. The function will return the answer.
+The function _stats()_ acts as a clearing house for all other functions in the library. It handles data scrubing, handles errors, and uses a simple _switch_ statement to determine which request to use.
 
-For example:
+
+= Parameters =
+_stats()_ accepts three parameters: `request`, `data`, and `decimal_place`.
+
+
+= Error handling =
+When the wrong data is passed to _stats()_ the function will return "ERROR: " followed by a plain English error message. For example, if a user tries to pass the array ["apple", "banana", "orange"] they would get the following response:
 {{{
-<script type="text/javascript" src="http://jsstats.googlecode.com/files/js.stats.pack-recent.js"></script>
-<script type="text/javascript">
-var data_array = new Array(1, 2, 3, 4, 5);
-
-var answer = stats("median", data_array);
-
-alert(answer);
-</script>
+return "ERROR: apple is not a number";
 }}}
-
-The alert box will display the median, in this case 3.
-
-= Available Functions =
-Currently, you can request the following descriptive statistics:
-|| *Request*          || *Function*                      ||
-|| Count              || `stats("count", data_array)`    ||
-|| Mean               || `stats("mean", data_array)`     ||
-|| Median             || `stats("mean", data_array)`     ||
-|| Minimum            || `stats("min", data_array)`      ||
-|| Maximum            || `stats("max", data_array)`      ||
-|| Standard Deviation || `stats("st_dev", data_array)`   ||
-|| Sum                || `stats("sum", data_array)`      ||
-|| Variance           || `stats("variance", data_array)` ||
-
-= Decimal Places =
-A third, optional parameter allows you to set the number of decimal places. The default value is zero (0). The code for this is:
-{{{
-var data_array = new Array(1.6, 2.5, 3.1, 4.2, 5.8);
-var decimal_place = 2;
-
-var answer = stats("mean", data_array, decimal_place);
-
-alert(answer);
-}}}
-
-The alert box will display a mean of 3.44.
-
-_Note: this feature is not available (and not necessary) for count, maximum, minimum, and sum_.
