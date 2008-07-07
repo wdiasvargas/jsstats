@@ -2,7 +2,7 @@
 
 == Immediate ==
  * ~~Add skewness and kurtosis functions~~
- * Determine how to handle parameters for multiple arrays (needed for hypothesis testing)
+ * ~~Determine how to handle parameters for multiple arrays (needed for hypothesis testing)~~
  * Add additional data scrubbing
 
 == Short term ==
