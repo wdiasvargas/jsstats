@@ -1,8 +1,8 @@
 #summary The to-do list for js.stats
 
 == Immediate ==
- * ~~Add skewness and kurtosis functions~~
  * ~~Determine how to handle parameters for multiple arrays (needed for hypothesis testing)~~
+ * Add skewness and kurtosis functions
  * Add additional data scrubbing
 
 == Short term ==
