@@ -1,0 +1,3 @@
+**js.stats** is a JavaScript-based statistics API meant to handle both descriptive statistics and hypothesis testing. The goal is to provide a fast, convenient, and easily called resource for basic statistical analysis.
+
+You can find an overview of js.stats [here](Overview.md). For more detail, look [here](API.md) for  documentation and [here](changelog.md) for for the changelog. Finally, [here](Todo.md) is the to-do list for the project.

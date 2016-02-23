@@ -1,0 +1,2 @@
+## Why Javascript? ##
+[JavaScript](http://en.wikipedia.org/wiki/Javascript) is a client-side scripting language. It is lightweight and was never designed to handle mathematical equations. However, it is ubiquitous and one must work with the tools available.

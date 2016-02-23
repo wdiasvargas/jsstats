@@ -1,0 +1,24 @@
+## Immediate ##
+  * ~~Determine how to handle parameters for multiple arrays (needed for hypothesis testing)~~
+  * Add skewness and kurtosis functions
+  * Add additional data scrubbing
+
+## Short term ##
+  * Add mode function
+  * Finish work on hypothesis testing code (Student's t-test)
+  * Finish coding and testing gadget for Google Docs
+  * Expand documentation
+
+## Medium term ##
+  * Push version 1.0 live
+  * Add hypothesis testing
+  * Greater focus on error-handling and security
+  * Submit gadget to Google Docs
+
+## Long term ##
+  * Focus on code efficiency, speed, and download size
+  * Firmly establish the limits of JavaScript when working with statistics
+  * Add localization (especially for different types of decimal separators)
+
+## Pie in the sky ##
+  * Add code for building graphs (especially for Google Docs)
